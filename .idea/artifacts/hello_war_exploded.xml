@@ -1,0 +1,23 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="hello:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/hello_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="hello/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="hello" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="C:/Program Files/Apache Software Foundation/Tomcat 7.0/lib/servlet-api.jar" />
+          <element id="file-copy" path="C:/Program Files/Apache Software Foundation/Tomcat 7.0/lib/tomcat-api.jar" />
+          <element id="file-copy" path="C:/Program Files/Apache Software Foundation/commons-io-2.6.jar" />
+          <element id="file-copy" path="C:/Program Files/Apache Software Foundation/commons-lang3-3.7.jar" />
+          <element id="file-copy" path="C:/Program Files/Apache Software Foundation/fastjson-1.2.47.jar" />
+          <element id="file-copy" path="C:/Program Files/Apache Software Foundation/jstl-1.2.jar" />
+          <element id="file-copy" path="C:/Program Files/Apache Software Foundation/jstl-api-1.2.jar" />
+          <element id="file-copy" path="C:/Program Files/Apache Software Foundation/Tomcat 7.0/lib/jsp-api.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
